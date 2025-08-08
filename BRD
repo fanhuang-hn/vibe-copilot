@@ -1,0 +1,43 @@
+# Feature List – Banking Gateway Demo App
+ 
+## 1. User Authentication & Profile
+- Đăng nhập/Đăng xuất (demo, không cần OTP thực)
+- Quản lý thông tin tài khoản (số dư, lịch sử giao dịch)
+ 
+## 2. Topup (Nạp tiền)
+- Giao diện nhập số tiền nạp
+- Chọn nguồn nạp (giả lập: tài khoản ngân hàng/mock)
+- Xác nhận và cập nhật số dư ngay trên app
+- Ghi lại lịch sử nạp tiền
+ 
+## 3. Thanh toán 1 chạm qua NFC
+- Giao diện thanh toán bằng NFC (tap-to-pay)
+- Sử dụng NFC Web API (trên Chrome Android)
+- Sinh và gửi token giao dịch qua backend
+- Nhận kết quả giao dịch, cập nhật trạng thái
+ 
+## 4. Thanh toán qua QR Code
+- Tạo mã QR cho thanh toán (merchant hiển thị, user quét)
+- Quét mã QR từ merchant (dùng camera)
+- Xử lý và xác nhận giao dịch qua backend
+- Hiển thị biên lai/giao dịch đã hoàn thành
+ 
+## 5. Lịch sử giao dịch
+- Hiển thị danh sách các giao dịch (nạp tiền, thanh toán)
+- Chi tiết từng giao dịch
+ 
+## 6. Thông báo (Notifications)
+- Hiển thị thông báo trạng thái giao dịch (success/fail)
+- Thông báo khuyến mãi (demo)
+ 
+## 7. Hỗ trợ demo đa môi trường
+- Progressive Web App (PWA): cài trên mọi thiết bị
+- Hỗ trợ demo trên mobile (Android/iOS), desktop
+ 
+## 8. Quản lý merchant (cho demo)
+- Danh sách merchant giả lập
+- Chọn merchant để thanh toán (NFC/QR)
+ 
+## 9. Kết nối hệ thống ngân hàng (Mock hoặc thực)
+- Kết nối tới banking core qua API (mock cho demo)
+- Nhận kết quả trả về, mô phỏng các tình huống (thành công/thất bại)
